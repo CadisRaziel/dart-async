@@ -10,6 +10,7 @@ void main() {
     */
 
 
+  //? no try catch a gente não consegue ter essa flexibilidade de 'voltar para a cadeia'
   //!Tratando corretamente os erros de cada uma das chamadas
   func1()
       .then((value) => func2())
