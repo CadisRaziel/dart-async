@@ -15,13 +15,13 @@ Future<void> main() async {
   //!2º -> try catch
   //!mesmo assim eu posso por um catchError ali pra retornar um outro valor se eu qusier
   try {
-  final id1 = await buscarId();
-  final nome1 = await buscarNome(id1);
-  print("o nome é $nome1");
-  print("fim try catch");
-} catch (e) {
-  print("aconteceu um erro");
-}
+    final id1 = await buscarId();
+    final nome1 = await buscarNome(id1);
+    print("o nome é $nome1");
+    print("fim try catch");
+  } catch (e) {
+    print("aconteceu um erro");
+  }
 
   print("O nome é $nome");
   print("fim");
